@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cédric YAMEOGO | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+    <div class="navbar-container">
+        <!-- Bouton menu hamburger -->
+        <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        
+        <!-- Votre menu existant -->
+        <ul class="nav-menu">
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#formation">Formation</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <main>
+        <!-- Section Hero -->
+        <section id="home" class="home">
+            <div class="container">
+                <h1>Bienvenue dans mon univers</h1>
+                <p>Développeur passionné par les solutions innovantes</p>
+                <a href="#about">
+                    <button>Commencer l'exploration <i class="fas fa-arrow-right"></i></button>
+                </a>
+            </div>
+        </section>
+
+        <!-- Section À propos -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>À propos de moi</h2>
+                    <div class="containe">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h4>Salut, je suis Cédric YAMEOGO</h4>
+                        <p>Étudiant en informatique passionné par le développement, l'IA et la cybersécurité. Je conçois des solutions numériques qui combinent innovation, efficacité et accessibilité.</p>
+                        <p><strong>Mon objectif ?</strong> Créer des projets utiles, concrets et puissants tout en contribuant à la révolution technologique depuis l'Afrique.</p>
+                    </div>
+                  
+                </div>
+                  <div class="about-image">
+                        <img src="images/Cedric.png" alt="Photo de Cédric YAMEOGO">
+                    </div>
+                    </div>
+            </div>
+        </section>
+
+        <!-- Section Compétences -->
+        <section id="competences" class="competences">
+            <div class="container">
+                <h2>Mes Compétences</h2>
+                <div class="competences-container">
+                    <p><span>Langages :</span> Python, C, HTML, CSS, JavaScript</p>
+                    <p><span>Frameworks :</span> Flask, Tailwind CSS</p>
+                    <p><span>Outils :</span> Git et GitHub, VS Code, Figma, Blender</p>
+                    <p><span>Systèmes :</span> Windows, Linux</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Projets -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Mes Projets</h2>
+                <div class="projects-grid">
+                    <!-- Projet 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/image1.png" alt="Capture E-Suggestion-Box">
+                        </div>
+                        <div class="project-content">
+                            <h4>E-Suggestion-Box</h4>
+                            <p>Application web pour collecter les idées et suggestions des utilisateurs via une interface moderne.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Flask</span>
+                                <span class="project-tag">Python</span>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                            <p><small>Projet académique - Digitalisation des boîtes à idées</small></p>
+                        </div>
+                    </article>
+
+                    <!-- Projet 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/image.png">
+                        </div>
+                        <div class="project-content">
+                            <h4>Client Appointment Scheduler</h4>
+                            <p>Planificateur de rendez-vous clients avec interface intuitive et gestion dynamique des disponibilités.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML/CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                                <span class="project-tag">Frontend</span>
+                            </div>
+                            <p><small>Projet de développement web</small></p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Formation -->
+        <section id="formation" class="formation">
+            <div class="container">
+                <h2>Mon Parcours</h2>
+                <div class="formation-content">
+                    <p>Licence 1 en Informatique</p>
+                    <p><strong>Burkina Institute of Technology</strong></p>
+                    <p>2024 - Présent</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contactez-moi</h2>
+                <div class="contact-content">
+                    <p>Disponible pour des opportunités et collaborations</p>
+                    <div class="contact-links">
+                        <a href="https://wa.me/22654515907" class="contact-link">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+                        <a href="https://github.com/votreusername" class="contact-link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="mailto:yameogocedric7@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope"></i> Email
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Cédric YAMEOGO. Tous droits réservés.</p>
+        </div>
+    </footer>
+    <script>
+    // Sélection des éléments
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+    
+    // Gestion du clic sur le hamburger
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navMenu.classList.toggle('active');
+        
+        // Empêche le défilement quand le menu est ouvert
+        if (navMenu.classList.contains('active')) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'auto';
+        }
+    });
+    
+    // Fermer le menu quand on clique sur un lien
+    document.querySelectorAll('.nav-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+    });
+</script>
+</body>
+</html>
